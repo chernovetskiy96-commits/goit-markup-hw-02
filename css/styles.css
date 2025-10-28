@@ -90,8 +90,9 @@ a {
 
 .main-criterias-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -103,25 +104,28 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.team {
+.main-criterias-page {
     background-color: #FFFFFF;
 }
 
+.team {
+    background-color: #f4f4fd;
+}
+
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
 }
 
-.team-names .portfolio-list {
+.team-names {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -139,13 +143,22 @@ a {
 }
 
 .portfolio-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+}
+
+.portfolio-list {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-page {
